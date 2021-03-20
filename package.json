@@ -1,0 +1,16 @@
+{
+  "name": "launcher",
+  "version": "1.0.0",
+  "description": "Xu Chunyang's Launcher for Windows",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Xu Chunyang (徐春阳)",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "^12.0.1"
+  }
+}
