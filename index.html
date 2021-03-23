@@ -6,9 +6,26 @@
       http-equiv="Content-Security-Policy"
       content="script-src 'self' 'unsafe-inline';"
     />
-    <title>Hello World!</title>
+    <title>Launcher</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      input[type="search"] {
+        width: 100%;
+        font-family: inherit;
+        font-size: 22px;
+        padding: 0.5em;
+        background-color: white;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <form id="search-form">
+      <input type="search" placeholder="Type to search..." id="query" />
+    </form>
   </body>
 </html>

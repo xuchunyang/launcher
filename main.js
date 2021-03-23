@@ -5,8 +5,10 @@ function createWindow() {
   console.log("createWindow called");
 
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 600,
+    height: 100,
+    frame: false,
+    transparent: true,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
